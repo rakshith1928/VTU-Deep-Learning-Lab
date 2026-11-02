@@ -15,7 +15,7 @@ from pathlib import Path
 import tensorflow as tf
 import numpy as np
 
-outdir = Path(__file__).resolve().parents[1] / "outputs" / "07"
+outdir = Path(__file__).resolve().parent / "outputs"
 outdir.mkdir(parents=True, exist_ok=True)
 
 # 1. Load CIFAR-10 dataset

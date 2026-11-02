@@ -14,7 +14,7 @@ from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 
-outdir = Path(__file__).resolve().parents[1] / "outputs" / "06"
+outdir = Path(__file__).resolve().parent / "outputs"
 outdir.mkdir(parents=True, exist_ok=True)
 
 # 1. Generate synthetic time series data

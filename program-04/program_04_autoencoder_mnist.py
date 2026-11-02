@@ -11,7 +11,7 @@ from pathlib import Path
 import tensorflow as tf
 from tensorflow.keras import layers, Model
 
-outdir = Path(__file__).resolve().parents[1] / "outputs" / "04"
+outdir = Path(__file__).resolve().parent / "outputs"
 outdir.mkdir(parents=True, exist_ok=True)
 
 # Load dataset
