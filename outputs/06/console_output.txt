@@ -1,0 +1,30 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793644631.408835   21744 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793644634.965281   21744 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\DELL\miniconda3\Lib\site-packages\keras\src\layers\rnn\rnn.py:199: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(**kwargs)
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Saved figure: C:\Users\DELL\VTU-Deep-Learning-Lab\outputs\06\fig1_raw_series.png
+Epoch 1/10
+50/50 - 4s - 80ms/step - loss: 0.1002 - val_loss: 0.0342
+Epoch 2/10
+50/50 - 1s - 14ms/step - loss: 0.0181 - val_loss: 0.0068
+Epoch 3/10
+50/50 - 1s - 13ms/step - loss: 0.0038 - val_loss: 0.0030
+Epoch 4/10
+50/50 - 1s - 13ms/step - loss: 0.0023 - val_loss: 0.0023
+Epoch 5/10
+50/50 - 1s - 13ms/step - loss: 0.0021 - val_loss: 0.0018
+Epoch 6/10
+50/50 - 1s - 14ms/step - loss: 0.0021 - val_loss: 0.0019
+Epoch 7/10
+50/50 - 1s - 13ms/step - loss: 0.0019 - val_loss: 0.0019
+Epoch 8/10
+50/50 - 1s - 13ms/step - loss: 0.0022 - val_loss: 0.0019
+Epoch 9/10
+50/50 - 1s - 14ms/step - loss: 0.0020 - val_loss: 0.0021
+Epoch 10/10
+50/50 - 1s - 14ms/step - loss: 0.0021 - val_loss: 0.0019
+Saved figure: C:\Users\DELL\VTU-Deep-Learning-Lab\outputs\06\fig2_loss.png
+Saved figure: C:\Users\DELL\VTU-Deep-Learning-Lab\outputs\06\fig3_forecast.png
