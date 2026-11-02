@@ -1,0 +1,30 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793644692.197282   28264 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793644697.100488   28264 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\DELL\miniconda3\Lib\site-packages\keras\src\layers\convolutional\base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Epoch 1/10
+938/938 - 19s - 20ms/step - accuracy: 0.9287 - loss: 0.2316
+Epoch 2/10
+938/938 - 16s - 17ms/step - accuracy: 0.9748 - loss: 0.0826
+Epoch 3/10
+938/938 - 18s - 20ms/step - accuracy: 0.9815 - loss: 0.0615
+Epoch 4/10
+938/938 - 21s - 22ms/step - accuracy: 0.9849 - loss: 0.0504
+Epoch 5/10
+938/938 - 22s - 23ms/step - accuracy: 0.9874 - loss: 0.0415
+Epoch 6/10
+938/938 - 16s - 17ms/step - accuracy: 0.9890 - loss: 0.0369
+Epoch 7/10
+938/938 - 16s - 17ms/step - accuracy: 0.9908 - loss: 0.0297
+Epoch 8/10
+938/938 - 17s - 18ms/step - accuracy: 0.9910 - loss: 0.0280
+Epoch 9/10
+938/938 - 16s - 17ms/step - accuracy: 0.9920 - loss: 0.0252
+Epoch 10/10
+938/938 - 16s - 17ms/step - accuracy: 0.9927 - loss: 0.0219
+Test Accuracy: 99.22%
+Predicted classes: [7 2 1 0 4 1 4 9 5 9]
+Actual classes: [7 2 1 0 4 1 4 9 5 9]
