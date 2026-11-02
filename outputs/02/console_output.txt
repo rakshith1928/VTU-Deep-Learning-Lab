@@ -1,0 +1,127 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793644628.923293   10364 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793644632.870234   10364 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\DELL\miniconda3\Lib\site-packages\keras\src\layers\core\dense.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Model: "sequential"
++--------------------------------------------------------------------------+
+| Layer (type)                    | Output Shape           |       Param # |
+|---------------------------------+------------------------+---------------|
+| dense (Dense)                   | (None, 16)             |            80 |
+|---------------------------------+------------------------+---------------|
+| dense_1 (Dense)                 | (None, 12)             |           204 |
+|---------------------------------+------------------------+---------------|
+| dense_2 (Dense)                 | (None, 8)              |           104 |
+|---------------------------------+------------------------+---------------|
+| dense_3 (Dense)                 | (None, 3)              |            27 |
++--------------------------------------------------------------------------+
+ Total params: 415 (1.62 KB)
+ Trainable params: 415 (1.62 KB)
+ Non-trainable params: 0 (0.00 B)
+Epoch 1/50
+15/15 - 2s - 150ms/step - accuracy: 0.7667 - loss: 0.9727
+Epoch 2/50
+15/15 - 0s - 7ms/step - accuracy: 0.7917 - loss: 0.9006
+Epoch 3/50
+15/15 - 0s - 7ms/step - accuracy: 0.8167 - loss: 0.8197
+Epoch 4/50
+15/15 - 0s - 7ms/step - accuracy: 0.8167 - loss: 0.7325
+Epoch 5/50
+15/15 - 0s - 7ms/step - accuracy: 0.8167 - loss: 0.6448
+Epoch 6/50
+15/15 - 0s - 8ms/step - accuracy: 0.8083 - loss: 0.5657
+Epoch 7/50
+15/15 - 0s - 8ms/step - accuracy: 0.8250 - loss: 0.4984
+Epoch 8/50
+15/15 - 0s - 10ms/step - accuracy: 0.8250 - loss: 0.4446
+Epoch 9/50
+15/15 - 0s - 11ms/step - accuracy: 0.8250 - loss: 0.4074
+Epoch 10/50
+15/15 - 0s - 9ms/step - accuracy: 0.8417 - loss: 0.3815
+Epoch 11/50
+15/15 - 0s - 8ms/step - accuracy: 0.8417 - loss: 0.3617
+Epoch 12/50
+15/15 - 0s - 8ms/step - accuracy: 0.8500 - loss: 0.3449
+Epoch 13/50
+15/15 - 0s - 7ms/step - accuracy: 0.8500 - loss: 0.3293
+Epoch 14/50
+15/15 - 0s - 7ms/step - accuracy: 0.8500 - loss: 0.3170
+Epoch 15/50
+15/15 - 0s - 7ms/step - accuracy: 0.8583 - loss: 0.3053
+Epoch 16/50
+15/15 - 0s - 8ms/step - accuracy: 0.8667 - loss: 0.2945
+Epoch 17/50
+15/15 - 0s - 8ms/step - accuracy: 0.8583 - loss: 0.2806
+Epoch 18/50
+15/15 - 0s - 8ms/step - accuracy: 0.8667 - loss: 0.2706
+Epoch 19/50
+15/15 - 0s - 8ms/step - accuracy: 0.8917 - loss: 0.2578
+Epoch 20/50
+15/15 - 0s - 9ms/step - accuracy: 0.9167 - loss: 0.2466
+Epoch 21/50
+15/15 - 0s - 8ms/step - accuracy: 0.9167 - loss: 0.2355
+Epoch 22/50
+15/15 - 0s - 9ms/step - accuracy: 0.9333 - loss: 0.2234
+Epoch 23/50
+15/15 - 0s - 8ms/step - accuracy: 0.9417 - loss: 0.2107
+Epoch 24/50
+15/15 - 0s - 8ms/step - accuracy: 0.9500 - loss: 0.2019
+Epoch 25/50
+15/15 - 0s - 8ms/step - accuracy: 0.9500 - loss: 0.1880
+Epoch 26/50
+15/15 - 0s - 8ms/step - accuracy: 0.9583 - loss: 0.1788
+Epoch 27/50
+15/15 - 0s - 8ms/step - accuracy: 0.9583 - loss: 0.1677
+Epoch 28/50
+15/15 - 0s - 8ms/step - accuracy: 0.9583 - loss: 0.1594
+Epoch 29/50
+15/15 - 0s - 9ms/step - accuracy: 0.9583 - loss: 0.1506
+Epoch 30/50
+15/15 - 0s - 9ms/step - accuracy: 0.9583 - loss: 0.1437
+Epoch 31/50
+15/15 - 0s - 8ms/step - accuracy: 0.9583 - loss: 0.1379
+Epoch 32/50
+15/15 - 0s - 8ms/step - accuracy: 0.9583 - loss: 0.1302
+Epoch 33/50
+15/15 - 0s - 9ms/step - accuracy: 0.9583 - loss: 0.1257
+Epoch 34/50
+15/15 - 0s - 9ms/step - accuracy: 0.9583 - loss: 0.1179
+Epoch 35/50
+15/15 - 0s - 9ms/step - accuracy: 0.9667 - loss: 0.1141
+Epoch 36/50
+15/15 - 0s - 8ms/step - accuracy: 0.9667 - loss: 0.1081
+Epoch 37/50
+15/15 - 0s - 8ms/step - accuracy: 0.9667 - loss: 0.1036
+Epoch 38/50
+15/15 - 0s - 8ms/step - accuracy: 0.9667 - loss: 0.1015
+Epoch 39/50
+15/15 - 0s - 11ms/step - accuracy: 0.9667 - loss: 0.0961
+Epoch 40/50
+15/15 - 0s - 9ms/step - accuracy: 0.9667 - loss: 0.0923
+Epoch 41/50
+15/15 - 0s - 8ms/step - accuracy: 0.9667 - loss: 0.0911
+Epoch 42/50
+15/15 - 0s - 8ms/step - accuracy: 0.9750 - loss: 0.0865
+Epoch 43/50
+15/15 - 0s - 8ms/step - accuracy: 0.9750 - loss: 0.0831
+Epoch 44/50
+15/15 - 0s - 8ms/step - accuracy: 0.9667 - loss: 0.0836
+Epoch 45/50
+15/15 - 0s - 8ms/step - accuracy: 0.9750 - loss: 0.0786
+Epoch 46/50
+15/15 - 0s - 8ms/step - accuracy: 0.9750 - loss: 0.0766
+Epoch 47/50
+15/15 - 0s - 8ms/step - accuracy: 0.9833 - loss: 0.0743
+Epoch 48/50
+15/15 - 0s - 7ms/step - accuracy: 0.9667 - loss: 0.0739
+Epoch 49/50
+15/15 - 0s - 8ms/step - accuracy: 0.9750 - loss: 0.0742
+Epoch 50/50
+15/15 - 0s - 8ms/step - accuracy: 0.9750 - loss: 0.0702
+
+Test Accuracy: 100.00%
+
+Predicted Classes: [1 0 2 1 1 0 1 2 1 1 2 0 0 0 0 1 2 1 1 2 0 2 0 2 2 2 2 2 0 0]
+Actual Classes   : [1 0 2 1 1 0 1 2 1 1 2 0 0 0 0 1 2 1 1 2 0 2 0 2 2 2 2 2 0 0]
