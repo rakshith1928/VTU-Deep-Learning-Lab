@@ -1,0 +1,10 @@
+Test Accuracy: 0.0
+
+Review: The movie was amazing and I loved it
+Sentiment: Positive
+
+Review: The product was awful and disappointing
+Sentiment: Positive
+
+Review: I am very happy with this purchase
+Sentiment: Negative
